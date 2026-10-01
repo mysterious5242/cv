@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asım Kağan Gök | Portfolyo</title>
+    <style>
+        :root {
+            --bg-color: #d0d2d8;
+            --card-bg: #f6f6f6;
+            --text-color: #f8fafc;
+            --accent-color: #c16e1a;
+            --text-secondary: #e1e4e8;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #c0c6d1, #9a4924);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid #334155;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--accent-color);
+        }
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(223, 220, 220, 0.2);
+        }
+        section h2 {
+            color: var(--accent-color);
+            border-bottom: 2px solid #cac5bf;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .skill-tag {
+            background-color: #dedbd9;
+            color: var(--accent-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        .project-item {
+            margin-bottom: 20px;
+        }
+        .project-item h3 {
+            margin: 0 0 5px 0;
+            color: #f1f5f9;
+        }
+        .project-item p {
+            margin: 0;
+            color: var(--text-secondary);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            border-top: 1px solid #e4e8ec;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Asım Kağan Gök</h1>
+        <p>Bilgisayar Mühendisliği Öğrencisi & Yazılımcı</p>
+    </header>
+
+    <div class="container">
+        <!-- Hakkımda -->
+        <section>
+            <h2>Hakkımda</h2>
+            <p>Mersin Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Yazılım geliştirme süreçleriyle aktif olarak ilgileniyor; mobil, masaüstü ve web teknolojileri üzerine projeler üretiyorum. flutter üzerinede şirkette gönüllü stajyerlik yaptım.</p>
+        </section>
+
+        <!-- Yetenekler -->
+        <section>
+            <h2>Yetenekler & Teknolojiler</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Flutter & Dart</span>
+                <span class="skill-tag">C++ / C#</span>
+                <span class="skill-tag">SQL & Veritabanları</span>
+                <span class="skill-tag">Node.js & Express.js</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">Blender (3D Tasarım)</span>
+            </div>
+        </section>
+
+        <!-- Projeler -->
+        <section>
+            <h2>Öne Çıkan Projeler</h2>
+            <div class="project-item">
+                <h3>Banka Hesap Yönetim Sistemi</h3>
+                <p>Python nesne yönelimli programlama (OOP) ilkeleriyle geliştirilmiş, kapsülleme ve bakiye yönetimi içeren konsol tabanlı uygulama.</p>
+            </div>
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 15px 0;">
+            <div class="project-item">
+                <h3>Flutter 3D Model Entegrasyonu</h3>
+                <p>Mobil uygulamalar içerisinde 3D GLB varlıklarının `o3d` paketiyle render edilmesine yönelik mobil arayüz geliştirme çalışması.</p>
+            </div>
+        </section>
+
+        <!-- İletişim -->
+        <section>
+            <h2>İletişim</h2>
+            <p>Benimle projeleriniz hakkında konuşmak veya iletişime geçmek için e-posta gönderebilirsiniz.</p>
+            <p style="color: var(--accent-color); font-weight: bold;">asimkaangok@gmail.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Asım Kağan Gök. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>
